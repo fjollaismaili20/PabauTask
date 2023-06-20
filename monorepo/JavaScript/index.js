@@ -20,7 +20,7 @@ shuffleBtn.addEventListener("click", function () {
 });
 
 changeBtn.addEventListener("click", function () {
-  let newFormElements = ["Job", "Senior", "Radix", "Fair"];
+  let newFormElements = ["Job", "Senior", "Frontend", "Fair"];
   let formHtml = "";
   for (let input of newFormElements) {
     formHtml += `<label>
@@ -40,4 +40,3 @@ showBtn.addEventListener("click", function () {
   }
   alert("Selected elements: " + checkedElements);
 });
-
